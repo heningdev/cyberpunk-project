@@ -1,0 +1,15 @@
+.parallax-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-divider span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #ccc;
+}

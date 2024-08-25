@@ -1,0 +1,42 @@
+.world {
+    background-color: #111;
+    background-image: url('../../assets/img/screen_6.jpg');
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+.world-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.world-grid {
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.world-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.world-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.world-card h3 {
+    margin-top: 15px;
+    color: #ff66cc;
+}
+
+.world-card p {
+    font-size: 14px;
+}

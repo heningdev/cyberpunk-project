@@ -1,0 +1,95 @@
+.gangs {
+    background-color: #1a1a1a;
+    background-image: url('../../assets/img/screen_8.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.gangs-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gang-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    min-width: 200px;
+    text-align: left;
+    scroll-snap-align: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.gang-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.gang-card h3 {
+    margin-top: 15px;
+    color: #ff66cc;
+}
+
+.gang-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* Carousel  */
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    gap: 2.5em;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    height: 70px;
+}
+
+.carousel-control.left {
+    left: 12%;
+}
+
+.carousel-control.right {
+    right: 12%;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Oculta a barra de rolagem no WebKit */
+.carousel::-webkit-scrollbar {
+    display: none;
+}

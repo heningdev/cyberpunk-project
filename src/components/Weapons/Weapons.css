@@ -1,0 +1,57 @@
+.weapons {
+    background-color: #222;
+    background-image: url('../../assets/img/screen_7.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.weapons-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 20px;
+}
+
+.weapon-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    min-width: 300px;
+    scroll-snap-align: start;
+    margin-right: 20px;
+    flex-shrink: 0;
+    /* Evitar encolhimento */
+}
+
+.weapon-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.weapon-card h3 {
+    margin-top: 15px;
+    color: #ff66cc;
+}
+
+.weapon-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Oculta a barra de rolagem no WebKit */
+.carousel::-webkit-scrollbar {
+    display: none;
+}

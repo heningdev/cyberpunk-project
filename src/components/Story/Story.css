@@ -1,0 +1,24 @@
+.story {
+    background-image: url('../../assets/img/screen_3.jpg');
+    background-size: cover;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.7);
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    line-height: 1.6;
+    height: 50vh;
+    transition: ease-in .35s;
+}
+
+.story-content:hover {
+    scale: 1.2;
+    transition: ease-in .35s;
+}

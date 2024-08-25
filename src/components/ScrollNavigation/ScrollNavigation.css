@@ -1,0 +1,26 @@
+.scroll-navigation {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+
+}
+
+.scroll-point {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-top: 5em;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scroll-point.active {
+    box-shadow: 0 0 10px #ff66cc;
+    border: 1px #ff66cc solid;
+}
